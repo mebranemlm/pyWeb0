@@ -35,7 +35,7 @@ Conexion cn= new Conexion();
 		//2...  array[ Persona (Objeto) -> 2 Pedro, ....]
 		//3...  array[ Persona (Objeto), ....]
 		
-		List<Personal> lista = new ArrayList<>(); // Lista Personal vacia
+		List<Personal> lista = new ArrayList<Personal>(); // Lista Personal vacia
 		
 		for(Object arreglo[]: lista_arreglo){
 			Personal oPersonal= (Personal) arreglo[0];
