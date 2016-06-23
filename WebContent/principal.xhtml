@@ -12,12 +12,13 @@
 </h:head>
 
 <h:body>
-<center>
+
 	<h1>Principal</h1>
 	
-<!-- 	<a href="secundario.xhtml">IR A SECUNDARIO</a> -->
-<h:outputLink action="SECUNDARIO">IR A SECUNDARIO</h:outputLink>
-</center>
+	<h:form>
+		<h:commandLink value="LISTAR CARGOS" action="LISTAR_CARGOS" actionListener="#{CargoBean.listar}"></h:commandLink>
+	</h:form>
+
 </h:body>
 
 

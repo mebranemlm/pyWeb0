@@ -21,6 +21,8 @@ public class CargoBean {
 		lista=oCargoDAOI.listar();
 	}
 	
+	
+	
 	//Getters and Setters
 	public CargoDAOI getoCargoDAOI() {
 		return oCargoDAOI;
@@ -52,6 +54,19 @@ public class CargoBean {
 
 	public void setLista(List<Cargo> lista) {
 		this.lista = lista;
+	}
+	
+	//probando 
+	public String accionPrincipal= "PRINCIPAL";
+
+	public String getAccionPrincipal() {
+		return accionPrincipal;
+	}
+
+
+
+	public void setAccionPrincipal(String accionPrincipal) {
+		this.accionPrincipal = accionPrincipal;
 	}
 	
 	

@@ -32,6 +32,11 @@
     		<to-view-id>/secundario.xhtml</to-view-id>
     	</navigation-case>
     	
+    	<navigation-case>
+    		<from-outcome>LISTAR_CARGOS</from-outcome>
+    		<to-view-id>cargo/listar.xhtml</to-view-id>
+    	</navigation-case>
+    	
  	</navigation-rule>
     
 	<application>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14666339843140" configfile="/pyWeb0/WebContent/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="*" id="pf14666341971635" outlinks="pf14666341971646" path="*"/>
-  <nodes xsi:type="pageflow:PFPage" name="principal.xhtml" id="pf14666341971647" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14666341971646" path="/principal.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="370" id="pf14666341971635" outlinks="pf14666341971646 pf14666363197298" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="principal.xhtml" x="338" y="178" id="pf14666341971647" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14666341971646" path="/principal.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="secundario.xhtml" x="338" y="562" id="pf14666363197309" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf14666363197298" path="/secundario.xhtml"/>
   <links id="pf14666341971646" target="pf14666341971647" source="pf14666341971635" outcome="PRINCIPAL"/>
+  <links id="pf14666363197298" target="pf14666363197309" source="pf14666341971635" outcome="SECUNDARIO"/>
 </pageflow:Pageflow>
